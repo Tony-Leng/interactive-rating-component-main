@@ -1,0 +1,10 @@
+@import 'rating.css';
+@import 'thankyou.css';
+
+h1 {
+  color: red;
+}
+
+.card-body {
+  background-color: blue;
+}
