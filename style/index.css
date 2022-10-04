@@ -1,10 +1,28 @@
 @import 'rating.css';
 @import 'thankyou.css';
 
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: 'Overpass', sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
 h1 {
-  color: red;
+  color: white;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
 }
 
 .card-body {
-  background-color: blue;
+  background-color: hsl(213, 19%, 18%);
+  height: 100%;
+  width: 350px;
+  border-radius: 15px;
+  padding: 32px;
+  margin: 0 auto;
 }
