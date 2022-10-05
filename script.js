@@ -1,4 +1,4 @@
-const ratings = document.querySelector('.rate-num');
+const ratings = document.querySelectorAll('.rate-num');
 
 // const toggleRating = () => {
 //   ratings.forEach(rating => {
@@ -12,6 +12,8 @@ const ratings = document.querySelector('.rate-num');
 //   console.log('rating')
 // }));
 
-ratings.addEventListener('click', () => {
-  ratings.classList.toggle('active');
-})
+
+for (let rating of ratings) {
+rating.addEventListener('click', () => {
+  rating.classList.toggle('active');
+})}
