@@ -29,12 +29,6 @@
   height: 16px;
   width: 16px;
   text-align: center;
-}
-
-.rate-num:hover{
-  background-color: hsl(217, 12%, 63%);
-  color: white;
-  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
@@ -60,4 +54,12 @@ button:hover {
 .active {
   background-color: hsl(25, 97%, 53%);
   color: white;
+  cursor: pointer;
+}
+
+.disabled:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
