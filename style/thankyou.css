@@ -1,0 +1,11 @@
+.thankyou-body {
+  text-align: center;
+}
+
+.rating-output {
+  color:hsl(25, 97%, 53%);
+  background-color: hsl(210, 8%, 24%);
+  padding: 8px;
+  margin: 24px 64px;
+  border-radius: 24px;
+}

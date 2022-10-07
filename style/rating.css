@@ -63,3 +63,7 @@ button:hover {
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
+
+.rating-body {
+  margin-bottom: 24px;
+}
