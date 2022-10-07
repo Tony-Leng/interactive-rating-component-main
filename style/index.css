@@ -26,3 +26,7 @@ p {
   padding: 32px;
   margin: 0 auto;
 }
+
+.attribution {
+  color: white;
+}
