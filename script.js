@@ -1,11 +1,21 @@
-const ratings = document.querySelectorAll('.rate-num');
+const submitbtn = document.querySelector('#submit');
+const thankyoucard = document.querySelector('.thankyou-body');
+const ratingcard = document.querySelector('.rating-body');
+const ratingnum = document.querySelector('.rating-nums');
 
-for (let rating of ratings) {
-rating.addEventListener('click', () => {
-  for (let rating of ratings) {
-    rating.classList.remove('active');
-    rating.classList.add('disabled');
-  }
-  rating.classList.add('active');
-  rating.classList.remove('disabled')
-})}
+
+// ratingnum.forEach(rating => {
+//   rating.addEventListener('click', () => {
+//     rating.addEventListener('click', () => {
+//       rating.classList.add('disable');
+//       rating.classList.remove('active')
+//     } )
+//     rating.classList.add('active');
+//     rating.classList.remove('disabled')
+//   })
+// });
+
+submitbtn.addEventListener('click', () => {
+  thankyoucard.classList.remove('hidden');
+  ratingcard.classList.add('hidden');
+})
